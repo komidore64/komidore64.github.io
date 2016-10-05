@@ -8,5 +8,5 @@ cd komidore64.github.io
 # rvm gemset magic
 bundle
 # bundle install magic
-jekyll -H 0.0.0.0 --watch
+jekyll -H 0.0.0.0 -w
 ```
