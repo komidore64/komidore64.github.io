@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Early-Access Games on Steam
-categories: ["video games", "steam"]
+title: steam early access
 ---
 Some time within the last two years, Steam has started offering what they call early-access games.
 An early-access game is one that has not yet officially released or finished yet, but is still made available to the public for play, similar to a public beta.
