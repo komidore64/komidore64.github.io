@@ -3,39 +3,39 @@
 ---
 @charset "utf-8";
 
-.navbar-default{
+.navbar-default {
     background: #093750 !important;
     border: none !important;
 
 }
 
-.navbar-default .navbar-nav > li > a{
+.navbar-default .navbar-nav > li > a {
     color:#abc0ca !important;
 }
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav > li > a:hover {
     color:#03a4fb !important;
 
 }
-.navbar-default .navbar-nav > li > a:focus{
+.navbar-default .navbar-nav > li > a:focus {
     color:#03a4fb !important;
 }
-.navbar-default .navbar-brand{
+.navbar-default .navbar-brand {
     color:#abc0ca !important;
 }
-.footer-content{
+.footer-content {
     text-align: center;
     padding: 0.5em;
 }
-body{
+body {
     background-color: #022335 !important;
     font-family: "Fira Mono" !important;
     color: #abc0ca !important;
 }
-.page-stuff{
+.page-stuff {
     a {
         color: #03a4fb !important;
         text-decoration: none;
-        &:hover{
+        &:hover {
             color:#03a4fb !important;
             text-decoration: none !important;
             border-bottom: 1px dotted #03a4fb;
@@ -43,11 +43,11 @@ body{
         }
     }
 }
-#page-content{
+#page-content {
     padding-bottom: 4em;
 }
 
-.page-stuff{
+.page-stuff {
     padding-top: 2em;
     padding-bottom: 5em;
 }
@@ -58,43 +58,43 @@ a {
     color: #03a4fb;
     text-decoration: none;
 }
-a:hover{
+a:hover {
     color:#03a4fb !important;
     text-decoration: none !important;
     border-bottom: 1px dotted #03a4fb;
 
 }
 
-.post-list{
+.post-list {
 
     text-align: center;
 
 }
-.post-box{
+.post-box {
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-.post-title{
+.post-title {
     font-size: 20px !important;
     color:  #abc0ca !important;
 }
 
-.post-excerpt{
+.post-excerpt {
     color: white !important;
     padding-top: 0.5em;
     padding-bottom: 0.3em;
 }
-.post-title-main{
+.post-title-main {
     text-align: center;
     color: #abc0ca !important;
 }
-.post-content{
+.post-content {
     font-size: 19px;
     text-align: justify;
     padding-bottom: 5em;
 }
-pre{
+pre {
     background-color: black !important;
     border:none !important;
     border-radius: 0px !important;
@@ -102,42 +102,42 @@ pre{
     padding: 1.5em !important;
     color:white !important;
 }
-.post-meta{
+.post-meta {
     color: skyblue !important;
 }
 
-code{
+code {
     background-color: black !important;
     color: white !important;
     border: none !important;
     border-radius: 0px !important;
 }
 
-.page-tagline{
+.page-tagline {
     font-size: 20px;
     text-align: center;
 }
 
-.download{
+.download {
     padding:2em;
     font-size: 19px;
 }
-.intro{
+.intro {
     font-size: 19px;
 
 }
-.manual-title{
+.manual-title {
     font-size: 21px;
     padding: 1em;
     text-transform: uppercase;
 
 }
-.manual-content{
+.manual-content {
     text-align: justify;
     font-size: 19px;
 }
 
-.man-title{
+.man-title {
     font-size: 22px;
     text-align: center;
     padding: 1em;
@@ -145,10 +145,10 @@ code{
 
 }
 
-.jumbotron{
+.jumbotron {
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
 }
-.navbar{
+.navbar {
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
 }
 // Our variables
@@ -175,7 +175,6 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -189,9 +188,5 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-"syntax-highlighting"
-;
+@import "syntax-highlighting";
