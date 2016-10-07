@@ -2,9 +2,8 @@
 layout: page
 title: about
 permalink: /about
+tagline: a maprys history, and other stuff...
 ---
-# A Maprys History. And Other Stuff
-
 **Maprys.net** started out back in my college days at [Elon](http://elon.edu).
 I worked for a student/faculty group named [elite](https://wiki.elon.edu/pages/viewpage.action?pageId=39321890) (Emerging Leaders in Technology At Elon).
 Our job was to provide basic to intermediate software support to students, faculty, and the community.
@@ -73,6 +72,6 @@ Everything you just read about isn't used anymore!
 Hooray.
 Openshift started phasing out their free tier, so I switched to [Github Pages](http://pages.github.com).
 Github Pages uses [Jekyll](http://jekyllrb.com) as its static-site generator, and I found this [DevJournal](https://github.com/hemangsk/DevJournal) theme made by Hemang Kumar on [Jekyll Themes](http://jekyllthemes.org/).
+The site's code still lives on Github, but it has moved to [komidore64/komidore64.github.io](http://github.com/komidore64/komidore64.github.io).
 
 ###### \* the best text editor in the world
-
