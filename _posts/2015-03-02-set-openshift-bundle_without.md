@@ -1,6 +1,6 @@
 ---
 layout: post
-title: setting openshift bundle_without variable
+title: set openshift bundle_without variable
 ---
 I spent far too long trying to figure out how to set OpenShift's `BUNDLE_WITHOUT` variable to limit the gems installed on my OpenShift container.
 I searched far and wide through OpenShift's [documentation](https://developers.openshift.com/index.html) for information on how to do so.

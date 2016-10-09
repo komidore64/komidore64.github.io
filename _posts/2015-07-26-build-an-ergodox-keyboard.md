@@ -1,6 +1,6 @@
 ---
 layout: post
-title: building an ergodox keyboard
+title: build an ergodox keyboard
 ---
 Roughly a year ago, I decided to step into a hardcore corner of mechanical keyboards.
 I had grown fond of the mechanical switch click, the solid feel of a keyboard, and the myriad of keycaps available for customization.
