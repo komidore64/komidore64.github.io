@@ -3,9 +3,9 @@ layout: page
 title: who am i
 permalink: /about
 ---
-Hello, my name is Adam.
+![Gravatar image](http://www.gravatar.com/avatar/322bf4d29695c86854700624da8649fb.png?s=300)
 
-![Gravatar image](http://www.gravatar.com/avatar/322bf4d29695c86854700624da8649fb.png?s=180)
+Hello, my name is Adam.
 
 I'm a Software Engineer at [Red Hat](http://redhat.com).
 In May 2012, I graduated from [Elon University](http://elon.edu) with degrees in `Computer Science` and `Computer Information Systems`.
