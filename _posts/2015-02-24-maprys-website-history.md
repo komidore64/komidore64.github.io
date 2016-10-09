@@ -1,8 +1,6 @@
 ---
-layout: page
-title: about
-permalink: /about
-tagline: a maprys history, and other stuff...
+layout: post
+title: maprys website history
 ---
 **Maprys.net** started out back in my college days at [Elon](http://elon.edu).
 I worked for a student/faculty group named [elite](https://wiki.elon.edu/pages/viewpage.action?pageId=39321890) (Emerging Leaders in Technology At Elon).
