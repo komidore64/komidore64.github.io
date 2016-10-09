@@ -1,7 +1,6 @@
 ---
 layout: post
 title: configure with xrandr
-categories: linux xrandr
 ---
 Have you ever gone to plug an external monitor into your linux laptop and it didn't result automatically in more desktop space?
 This has happened to me recently with a fairly old but still useful monitor that I have at home.
