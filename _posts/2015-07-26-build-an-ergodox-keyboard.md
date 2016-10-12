@@ -26,6 +26,8 @@ That makes it possible for you to move keys around if you don't like where they 
 You can make keys do more fancy things rather than just sending a letter to the computer.
 This allows you to tailor the operation of the ErgoDox to your liking with very few limits: a tinkerer's delight!
 
+![ergodox top-down](/assets/img/2015-07-26-build-an-ergodox-keyboard/ergodox_topdown.jpg)
+
 ## Parts & Construction
 
 The quickest and least expensive way to acquire parts for an ErgoDox is to find them yourself using the [official parts list](http://ergodox.org/Hardware.aspx).
@@ -49,6 +51,8 @@ The easiest method is to use Massdrop's [ErgoDox Configurator](https://www.massd
 The ErgoDox software operates using a concept of layers on a stack.
 There is always a currently selected layer.
 Modifier keys can be used to switch between layers.
+
+![ergodox key layout](/assets/img/2015-07-26-build-an-ergodox-keyboard/configurator_layout.png)
 
 How is this useful?
 The idea behind this is so that you can do more things with the same keys.
@@ -77,8 +81,3 @@ It's a satisfying experience being able to use something at work every day that 
 The ErgoDox certainly is a different beast from a normal keyboard, but I would recommend it to anyone who may be considering a more ergonomic keyboard.
 Feel free to contact me if you have any questions about the ErgoDox or mechanical keyboards in general.
 Until then, type on friends.
-
-## TODO
-
-add images
-
