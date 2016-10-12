@@ -86,7 +86,7 @@ body {
             color:#03a4fb !important;
             text-decoration: none !important;
             border-bottom: 1px dotted #03a4fb;
-            padding-bottom:0.5em;
+            padding-bottom: 0.2em;
         }
     }
 }
@@ -148,6 +148,9 @@ a:hover {
     text-align: justify;
     padding-bottom: 5em;
     @include image-center;
+    a:hover {
+        padding-bottom: 0.2em;
+    }
 }
 
 pre {
