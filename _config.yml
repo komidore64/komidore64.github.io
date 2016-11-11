@@ -23,5 +23,6 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - Rakefile
 
 timezone: America/New_York
