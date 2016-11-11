@@ -18,3 +18,10 @@ github_username:  komidore64
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+timezone: America/New_York
