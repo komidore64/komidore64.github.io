@@ -26,7 +26,7 @@ That makes it possible for you to move keys around if you don't like where they 
 You can make keys do more fancy things rather than just sending a letter to the computer.
 This allows you to tailor the operation of the ErgoDox to your liking with very few limits: a tinkerer's delight!
 
-![ergodox top-down](/images/2015-07-26-build-an-ergodox-keyboard/ergodox_topdown.jpg)
+{% lightbox /images/2015-07-26-build-an-ergodox-keyboard/ergodox_topdown.jpg %}
 
 ## Parts & Construction
 
@@ -52,7 +52,7 @@ The ErgoDox software operates using a concept of layers on a stack.
 There is always a currently selected layer.
 Modifier keys can be used to switch between layers.
 
-![ergodox key layout](/images/2015-07-26-build-an-ergodox-keyboard/configurator_layout.png)
+{% lightbox /images/2015-07-26-build-an-ergodox-keyboard/configurator_layout.png %}
 
 How is this useful?
 The idea behind this is so that you can do more things with the same keys.
