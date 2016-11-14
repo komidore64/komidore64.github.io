@@ -36,7 +36,7 @@ module Jekyll
     def render(_)
       data_title = options[:title].nil? ? '' : %{ data-title="#{options[:title]}"}
       alt = %{ alt="#{options[:alt].nil? ? @group : options[:alt]}"}
-      %{<a href="#{@filepath}" data-lightbox="#{@group}"#{data_title}><img src="#{@filepath}"#{alt}></img></a>}
+      %{<a href="#{@filepath}" data-lightbox="#{@group}"#{data_title}><img src="#{@filepath}"#{alt}/></a>}
     end
 
     private
