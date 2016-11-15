@@ -5,13 +5,14 @@ task :publish do
   sh("jekyll build")
   Dir.mktmpdir do |tmp|
     raise "working tree is dirty" unless system(%{git diff-index --quiet HEAD && test -z "$(git ls-files --other --exclude-standard)"})
-    branch = `git branch | grep '*' | sed 's/*\s//'`
-    sh("mv _site/* #{tmp}")
+    branch = `git branch | grep '*' | sed 's/*\s//'`.chomp
+    hash = `git rev-list HEAD | head -n1`.chomp
+    sh("mv --verbose _site/* #{tmp}")
     sh("git checkout master")
-    sh("rm -rf *")
-    sh("mv #{tmp}/* .")
+    sh("rm --verbose --recursive --force *")
+    sh("mv --verbose #{tmp}/* .")
     sh("git add --all")
-    sh("git commit -m 'automatic site-generation commit'")
+    sh("git commit --message 'site-generation based on #{hash}'")
     sh("git checkout #{branch}")
   end
 end
