@@ -8,7 +8,7 @@ task :publish do
     branch = `git branch | grep '*' | sed 's/*\s//'`.chomp
     hash = `git rev-list HEAD | head -n1`.chomp
     sh("mv --verbose _site/* #{tmp}")
-    sh("git checkout master")
+    sh("git checkout -B master")
     sh("rm --verbose --recursive --force *")
     sh("mv --verbose #{tmp}/* .")
     sh("git add --all")
