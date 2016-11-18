@@ -58,7 +58,7 @@ How is this useful?
 The idea behind this is so that you can do more things with the same keys.
 For instance, I use `Home`, `End`, `Page Up`, and `Page Down` often, but there isn't particularly an easy-to-reach place for them on the default layer, `Layer 0`.
 I place those keys on `Layer 1` using the same physical keys as `I`, `K`, `O`, and `L`, respectively.
-In the image of my ErgoDox layout below, you'll see that I can hold down `[~L1]` (near the left index finger) switching to `Layer 1` making `Home`, `End`, `Page Up`, and `Page Down` accessible under my right hand.
+In the image of my ErgoDox layout above, you'll see that I can hold down `[~L1]` (near the left index finger) switching to `Layer 1` making `Home`, `End`, `Page Up`, and `Page Down` accessible under my right hand.
 Now I don't have to stretch my hands to find those keys if I put them in an out-of-the-way place on the default layer.
 
 ## Usage
