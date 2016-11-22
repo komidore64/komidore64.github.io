@@ -3,16 +3,21 @@ require 'tmpdir'
 task :publish do
   sh("jekyll clean")
   sh("jekyll build")
+
   Dir.mktmpdir do |tmp|
-    raise "working tree is dirty" unless system(%{git diff-index --quiet HEAD && test -z "$(git ls-files --other --exclude-standard)"})
+    raise "working tree is dirty yo" unless system(%{git diff-index --quiet HEAD && test -z "$(git ls-files --other --exclude-standard)"})
+
     branch = `git branch | grep '*' | sed 's/*\s//'`.chomp
     hash = `git rev-list HEAD | head -n1`.chomp
+    remote = `git remote`.chomp
+
     sh("mv --verbose _site/* #{tmp}")
     sh("git checkout -B master")
     sh("rm --verbose --recursive --force *")
     sh("mv --verbose #{tmp}/* .")
     sh("git add --all")
     sh("git commit --message 'site-generation based on #{hash}'")
+    sh("git push #{remote} master --force")
     sh("git checkout #{branch}")
   end
 end
