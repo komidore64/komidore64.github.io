@@ -10,3 +10,9 @@ permalink: /high-scores
 ## [Blue Revolver (PC)](http://bluerevolvergame.com/)
 
 still practicing
+
+---
+
+[![steam profile](http://steamsignature.com/profile/english/76561197982255149.png)](http://steamcommunity.com/id/komidore64/)
+
+[![vgcollect](http://vgcollect.com/sig/komidore64.jpg)](http://vgcollect.com/komidore64)
