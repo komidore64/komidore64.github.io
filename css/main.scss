@@ -74,8 +74,9 @@
 
 body {
     background-color: #022335 !important;
-    font-family: "Fira Mono" !important;
+    font-family: "overpass" !important;
     color: #abc0ca !important;
+    letter-spacing: 0.05em;
 }
 
 .page-stuff {
@@ -155,7 +156,7 @@ pre {
     border-radius: 0px !important;
     font-size: 20px !important;
     padding: 1.5em !important;
-    color:white !important;
+    color: white !important;
 }
 
 .post-meta {
@@ -167,6 +168,8 @@ code {
     color: white !important;
     border: none !important;
     border-radius: 0px !important;
+    font-family: "overpass-mono" !important;
+    letter-spacing: normal;
 }
 
 .page-tagline {
