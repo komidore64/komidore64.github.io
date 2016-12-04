@@ -6,11 +6,7 @@ permalink: /high-scores
 ## [Do-Don-Pachi Resurrection (PC)](http://www.caveshmups.com/dodonpachi)
 
 - 2016.12.03 : 1.5 Novice : {% score 12036618723 %} ALL - A-Strong
-- 2016.12.03 : 1.5 Normal : {% score 291894946 %} AREA 4 - A-Bomb _terrible_
-
-## [Blue Revolver (PC)](http://bluerevolvergame.com/)
-
-still practicing
+- 2016.12.03 : 1.5 Normal : {% score 291894946 %} AREA 4 - A-Bomb (_terrible_)
 
 ---
 
