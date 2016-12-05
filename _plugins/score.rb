@@ -20,7 +20,7 @@ module Jekyll
     end
 
     def render(_)
-      ::ActiveSupport::NumberHelper.number_to_delimited(@number)
+      "__#{::ActiveSupport::NumberHelper.number_to_delimited(@number)}__"
     end
   end
 
