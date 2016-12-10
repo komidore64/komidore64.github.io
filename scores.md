@@ -8,6 +8,10 @@ permalink: /high-scores
 - 2016.12.03 : 1.5 Novice : {% score 12036618723 %} ALL - A-Strong
 - 2016.12.06 : 1.5 Normal : {% score 696955613 %} AREA 3 - A-Bomb
 
+## [Do-Don-Pachi Sai-Dai-Ou-Jou (Xbox 360)](http://www.cave.co.jp/gameonline/Xbox360/saidaioujou/)
+
+- 2016.12.09 : Novice : {% score 746244208 %} STAGE 4 - A-Shot
+
 ---
 
 [![steam profile](http://steamsignature.com/profile/english/76561197982255149.png)](http://steamcommunity.com/id/komidore64/)
