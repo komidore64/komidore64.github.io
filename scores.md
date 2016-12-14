@@ -10,7 +10,7 @@ permalink: /high-scores
 
 ## [Do-Don-Pachi Sai-Dai-Ou-Jou (Xbox 360)](http://www.cave.co.jp/gameonline/Xbox360/saidaioujou/)
 
-- 2016.12.09 : Novice : {% score 746244208 %} STAGE 4 - A-Shot
+- 2016.12.13 : Novice : {% score 1146080629 %} STAGE 4 - A-Laser
 
 ---
 
