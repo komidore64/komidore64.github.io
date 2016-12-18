@@ -3,14 +3,18 @@ layout: page
 title: high scores
 permalink: /high-scores
 ---
-## [Do-Don-Pachi Resurrection (PC)](http://www.caveshmups.com/dodonpachi)
+## [DoDonPachi Resurrection (PC)](http://www.caveshmups.com/dodonpachi)
 
-- 2016.12.03 : 1.5 Novice : {% score 12036618723 %} ALL - A-Strong
-- 2016.12.06 : 1.5 Normal : {% score 696955613 %} AREA 3 - A-Bomb
+- 2016.12.03 : 1.5 Novice : {% score 12036618723 %} ALL - Type A-Strong
+- 2016.12.06 : 1.5 Normal : {% score 696955613 %} AREA 3 - Type A-Bomb
 
-## [Do-Don-Pachi Sai-Dai-Ou-Jou (Xbox 360)](http://www.cave.co.jp/gameonline/Xbox360/saidaioujou/)
+## [DoDonPachi SaiDaiOuJou (Xbox 360)](http://www.cave.co.jp/gameonline/Xbox360/saidaioujou/)
 
-- 2016.12.13 : Novice : {% score 1146080629 %} STAGE 4 - A-Laser
+- 2016.12.13 : Novice : {% score 1146080629 %} STAGE 4 - Type A-Laser
+
+## [DonPachi (Saturn)](http://www.hardcoregaming101.net/dodonpachi/dodonpachi.htm)
+
+- 2016.12.18 : Arcade : {% score 2665630 %} AREA 3 BOSS - Type B
 
 ---
 
