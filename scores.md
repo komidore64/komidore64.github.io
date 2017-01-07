@@ -3,18 +3,22 @@ layout: page
 title: high scores
 permalink: /high-scores
 ---
-## [DoDonPachi Resurrection (PC)](http://www.caveshmups.com/dodonpachi)
+## [DoDonPachi DaiFukkatsu (PC)](http://www.caveshmups.com/dodonpachi)
 
-- 2016.12.03 : 1.5 Novice : {% score 12036618723 %} ALL : Type A-Strong
-- 2016.12.06 : 1.5 Normal : {% score 696955613 %} AREA 3 : Type A-Bomb
+- 2016-12-03 : 1.5 Novice : {% score 12036618723 %} ALL : Type A-Strong
+- 2017-01-02 : 1.5 Normal : {% score 1257780786 %} AREA 5 : Type A-Strong
 
 ## [DoDonPachi SaiDaiOuJou (Xbox 360)](http://www.cave.co.jp/gameonline/Xbox360/saidaioujou/)
 
-- 2016.12.13 : Novice : {% score 1146080629 %} STAGE 4 : Type A-Laser
+- 2016-12-13 : Novice : {% score 1146080629 %} STAGE 4 : Type A-Laser
 
 ## [DonPachi (Saturn)](http://www.hardcoregaming101.net/dodonpachi/dodonpachi.htm)
 
-- 2016.12.18 : Arcade : {% score 2665630 %} AREA 3 BOSS : Type B
+- 2016-12-18 : Arcade : {% score 2665630 %} AREA 3 BOSS : Type B
+
+## [Mushihimesama (PC)](http://www.caveshmups.com/mushihimesama/)
+
+- 2016-12-24 : Novice : {% score 3684308 %} STAGE 4 : Original M-Power
 
 ---
 
