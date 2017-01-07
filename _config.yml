@@ -22,10 +22,13 @@ host: 0.0.0.0
 port: 3000
 
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
   - Rakefile
   - .git
-  - README.md
+  - .gitignore
+  - .ruby-version
+  - .ruby-gemset
 
 timezone: America/New_York
