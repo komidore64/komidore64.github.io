@@ -58,7 +58,7 @@ task :publish do
 
     sh("mv --verbose _site/* #{tmp}")
     sh("git checkout -B #{publish_branch}")
-    sh("rm --verbose --recursive --force *")
+    sh("rm --verbose --recursive --force .sass-cache .gitignore .ruby-version .ruby-gemset *")
     sh("mv --verbose #{tmp}/* .")
     sh("git add --all")
     sh("git commit --message 'site-generation based on #{start_hash}'")
