@@ -25,10 +25,6 @@ def current_branch
   %x{git branch | grep '*' | sed 's/*\s//'}.chomp
 end
 
-def publish_branch
-  ENV['publish_branch'] || 'master'
-end
-
 def head_hash
   %x{git rev-list HEAD | head -n1}.chomp
 end
@@ -37,12 +33,15 @@ def git_remote
   %x{git remote}.chomp
 end
 
+desc "generate static site and publish to github pages. Usage: rake publish [push=true|false] [publish_branch=BRANCH]\n\n push - boolean value to enable/disable pushing the static site to github pages. Defaults to 'true' if not given. When assigning a value to push, anything other than 'true' evaluates to false.\n publish_branch - Remote branch where the static site is pushed. Defaults to 'master' if not given."
 task :publish do
   if ENV['push']
     push = ENV['push'].to_s == 'true' ? true : false
   else
     push = true
   end
+
+  publish_branch = ENV['publish_branch'] || 'master'
 
   sh("jekyll clean")
   sh("jekyll build")
@@ -62,7 +61,8 @@ task :publish do
     sh("mv --verbose #{tmp}/* .")
     sh("git add --all")
     sh("git commit --message 'site-generation based on #{start_hash}'")
-    sh("git push #{git_remote} master --force") if push
+    sh("git push #{git_remote} #{publish_branch} --force") if push
     sh("git checkout #{start_branch}")
+    sh("git branch -D #{publish_branch}") if push
   end
 end
