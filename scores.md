@@ -18,7 +18,7 @@ permalink: /high-scores
 
 ## [Mushihimesama (PC)](http://www.caveshmups.com/mushihimesama/)
 
-- 2016-12-24 : Novice : {% score 3684308 %} STAGE 4 : Original M-Power
+- 2016-12-24 : Novice : {% score 5681715 %} STAGE 5 : Maniac W-Power
 
 ---
 
