@@ -5,7 +5,7 @@ permalink: /high-scores
 ---
 ## [DoDonPachi DaiFukkatsu (PC)](http://www.caveshmups.com/dodonpachi)
 
-- 2016-12-03 : 1.5 Novice : {% score 12036618723 %} ALL : Type A-Strong
+- 2017-02-09 : 1.5 Novice : {% score 20628392062 %} EX BOSS : Type A-Strong
 - 2017-01-02 : 1.5 Normal : {% score 1257780786 %} AREA 5 : Type A-Strong
 
 ## [DoDonPachi SaiDaiOuJou (Xbox 360)](http://www.cave.co.jp/gameonline/Xbox360/saidaioujou/)
