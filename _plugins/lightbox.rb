@@ -15,14 +15,14 @@ module Jekyll
 
       argv = Shellwords.split(argv)
 
-      options = {}
+      @parse_opts = {}
       OptionParser.new do |opts|
         opts.on('--title TITLE', '-t TITLE', 'Title caption of image') do |title|
-          options[:title] = title
+          @parse_opts[:title] = title
         end
 
         opts.on('--alt ALT', '-a ALT', 'Alternate image text') do |alt|
-          options[:alt] = alt
+          @parse_opts[:alt] = alt
         end
       end.parse!(argv)
 
@@ -34,8 +34,8 @@ module Jekyll
     end
 
     def render(_)
-      data_title = options[:title].nil? ? '' : %{ data-title="#{options[:title]}"}
-      alt = %{ alt="#{options[:alt].nil? ? @group : options[:alt]}"}
+      data_title = @parse_opts[:title].nil? ? '' : %{ data-title="#{@parse_opts[:title]}"}
+      alt = %{ alt="#{@parse_opts[:alt].nil? ? @group : @parse_opts[:alt]}"}
       %{<a href="#{@filepath}" data-lightbox="#{@group}"#{data_title}><img src="#{@filepath}"#{alt}/></a>}
     end
 
