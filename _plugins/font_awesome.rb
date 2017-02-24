@@ -27,7 +27,6 @@ module Jekyll
 
     def render(_)
       style = (@parse_opts[:style] ? %{ style="#{@parse_opts[:style]}"} : '')
-      puts style
       %{<i class="fa #{@fa_classes.join(" ")}" aria-hidden="true"#{style}></i>}
     end
   end
