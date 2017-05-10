@@ -5,6 +5,7 @@ permalink: /high-scores
 ---
 ## DoDonPachi DaiFukkatsu (Steam)
 
+- 2017-05-01 : 1.5 Novice : {% score 29898851107 %} 2-ALL : Type A-Strong [{% fa fa-youtube-play --style "color: #cd201f;" %}](https://youtu.be/eD7qFMuDVQQ)
 - 2017-02-09 : 1.5 Novice : {% score 20628392062 %} EX BOSS : Type A-Strong [{% fa fa-youtube-play --style "color: #cd201f;" %}](https://www.youtube.com/watch?v=kXCSw7N6F_A)
 - 2017-01-02 : 1.5 Normal : {% score 1257780786 %} AREA 5 : Type A-Strong
 
