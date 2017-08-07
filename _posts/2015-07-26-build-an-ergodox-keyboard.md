@@ -70,7 +70,7 @@ It gets much much better after about two weeks.
 I never timed my typing before switching to the ErgoDox, so I can't confirm speed improvements.
 I must confess that I do prefer the ErgoDox, not simply for its uniqueness, but I've found there to be a bit of truth to its ergonomic differences to a standard QWERTY keyboard.
 Wrist pain previously experienced while typing has disappeared because the ErgoDox let's me type with my arms, wrists, and hands in more natural resting positions.
-The Novelty is cool in its own right, though.
+The novelty is cool in its own right, though.
 It has yet to get old for someone new to walk by my desk at work and ask, "Do you really type on that thing?"
 Maybe it will eventually, but I hope not :)
 
