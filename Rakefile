@@ -41,6 +41,12 @@ task :publish do
     push = true
   end
 
+  if ENV['verbose']
+    verbosity = ENV['verbose'].to_s == 'true' ? '--verbose ' : ''
+  else
+    verbosity = ''
+  end
+
   publish_branch = ENV['publish_branch'] || 'master'
 
   sh("jekyll clean")
@@ -57,13 +63,13 @@ task :publish do
     start_branch = current_branch
     start_hash = head_hash
 
-    sh("mv --verbose _site/* #{tmp}")
+    sh("mv #{verbosity}_site/* #{tmp}")
     puts
     sh("git checkout -B #{publish_branch}")
     puts
-    sh("rm --verbose --recursive --force .sass-cache .gitignore .ruby-version .ruby-gemset *")
+    sh("rm #{verbosity}--recursive --force .sass-cache .gitignore .ruby-version .ruby-gemset *")
     puts
-    sh("mv --verbose #{tmp}/* .")
+    sh("mv #{verbosity}#{tmp}/* .")
     puts
     sh("git add --all")
     puts
