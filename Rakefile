@@ -44,7 +44,9 @@ task :publish do
   publish_branch = ENV['publish_branch'] || 'master'
 
   sh("jekyll clean")
+  puts
   sh("jekyll build")
+  puts
 
   Dir.mktmpdir do |tmp|
     unless working_tree_is_clean?
@@ -56,13 +58,21 @@ task :publish do
     start_hash = head_hash
 
     sh("mv --verbose _site/* #{tmp}")
+    puts
     sh("git checkout -B #{publish_branch}")
+    puts
     sh("rm --verbose --recursive --force .sass-cache .gitignore .ruby-version .ruby-gemset *")
+    puts
     sh("mv --verbose #{tmp}/* .")
+    puts
     sh("git add --all")
+    puts
     sh("git commit --message 'site-generation based on #{start_hash}'")
+    puts
     sh("git push #{git_remote} #{publish_branch} --force") if push
+    puts
     sh("git checkout #{start_branch}")
+    puts
     sh("git branch -D #{publish_branch}") if push
   end
 end
