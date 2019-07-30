@@ -7,10 +7,9 @@ permalink: /about
 
 Hello, my name is Adam.
 
-I'm a Software Engineer at [Red Hat](http://redhat.com).
-In May 2012, I graduated from [Elon University](http://elon.edu) with a degree in Computer Science.
+I graduated from [Elon University](http://elon.edu) with a degree in Computer Science.
 I enjoy playing games in my spare time as well as working on small personal projects.
-Most of my programming experience started in Java, though Ruby has become my programming language of choice since working at Red Hat.
+Most of my programming experience started in Java, though Ruby and Python have become my programming languages of choice.
 [Git](http://git-scm.com/) and [Github](http://github.com) are the best source control tools out there, and [Vim](http://www.vim.org/) is the only text editor that anybody should ever need.
 
 price _dot_ m _dot_ adam _at_ gmail _dot_ com
