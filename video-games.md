@@ -12,6 +12,10 @@ permalink: /video-games
 
 ## High Scores
 
+#### DoDonPachi (Arcade)
+
+- 2019.06.02 : N/A : {% score 18165640 %} AREA 4 : Type C-Shot
+
 #### DoDonPachi DaiFukkatsu (Steam)
 
 - 2017.05.01 : 1.5 Novice : {% score 29898851107 %} 2-ALL : Type A-Strong [{% fa fa-youtube-play --style "color: #cd201f;" %}](https://youtu.be/eD7qFMuDVQQ)
@@ -21,14 +25,6 @@ permalink: /video-games
 #### DoDonPachi SaiDaiOuJou (Xbox 360)
 
 - 2016.12.13 : Novice : {% score 1146080629 %} STAGE 4 : Type A-Laser
-
-#### DonPachi (Sega Saturn)
-
-- 2016.12.18 : Arcade : {% score 2665630 %} AREA 3 BOSS : Type B
-
-#### Mushihimesama (Steam)
-
-- 2016.12.24 : Novice : {% score 5681715 %} STAGE 5 : Maniac W-Power
 
 ---
 
