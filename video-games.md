@@ -3,10 +3,15 @@ layout: page
 title: video games
 permalink: /video-games
 ---
+
+## #BeatIt2019
+
+1. [Doom (2016)](/images/video-games/2019-08-07-doom4.jpg) [PC] -- 2019.08.07
+
 ## #BeatIt2018
 
-1. [Uncharted 2: Among Thieves](/images/video-games/2018-04-29-uncharted2.jpg) (PS3) -- 2018.04.29
-2. [Rime](/images/video-games/2018-05-19-rime.jpg) (PS4) -- 2018.05.19
+1. [Uncharted 2: Among Thieves](/images/video-games/2018-04-29-uncharted2.jpg) [PS3] -- 2018.04.29
+2. [Rime](/images/video-games/2018-05-19-rime.jpg) [PS4] -- 2018.05.19
 
 ---
 
@@ -14,7 +19,7 @@ permalink: /video-games
 
 #### DoDonPachi (Arcade)
 
-- 2019.06.02 : N/A : {% score 18165640 %} AREA 4 : Type C-Shot
+- 2019.06.02 : {% score 18165640 %} AREA 4 : Type C-Shot
 
 #### DoDonPachi DaiFukkatsu (Steam)
 
