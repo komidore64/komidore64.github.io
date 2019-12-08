@@ -8,6 +8,7 @@ permalink: /video-games
 
 1. [Doom (2016)](/images/video-games/2019-08-07-doom4.jpg) [PC] -- 2019.08.07
 2. [Death Stranding](/images/video-games/2019-11-29-death-stranding.jpg) [PS4] - 2019.11.29
+3. [Tetris Effect](/images/video-games/2019-12-08-tetris-effect.jpg) [PS4] - 2019.12.08
 
 ## #BeatIt2018
 
