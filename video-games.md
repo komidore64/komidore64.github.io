@@ -23,6 +23,10 @@ permalink: /video-games
 
 - 2019.06.02 : {% score 18165640 %} AREA 4 : Type C-Shot
 
+#### DoDonPachi DaiOuJou Black Label (Arcade)
+
+- 2020.03.01 : {% score 23095100 %} STAGE 3 : Type B Expert
+
 #### DoDonPachi DaiFukkatsu (Steam)
 
 - 2017.05.01 : 1.5 Novice : {% score 29898851107 %} 2-ALL : Type A-Strong [{% fa fa-youtube-play --style "color: #cd201f;" %}](https://youtu.be/eD7qFMuDVQQ)
