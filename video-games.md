@@ -4,6 +4,10 @@ title: video games
 permalink: /video-games
 ---
 
+## #BeatIt2021
+
+1. [FEZ](/images/video-games/2021-01-23-fez.jpg) [PS3/4] -- 2021.01.23
+
 ## #BeatIt2019
 
 1. [Doom (2016)](/images/video-games/2019-08-07-doom4.jpg) [PC] -- 2019.08.07
