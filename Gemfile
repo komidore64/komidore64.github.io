@@ -3,7 +3,9 @@ source 'https://rubygems.org'
 require 'json'
 require 'open-uri'
 
-ruby '~> 2.6.0'
+ghpages = JSON.parse(URI.open('https://pages.github.com/versions.json').read)
 
-gem 'github-pages', JSON.parse(open('https://pages.github.com/versions.json').read)['github-pages']
+ruby "~> #{ghpages['ruby']}"
+
+gem 'github-pages', ghpages['github-pages']
 gem 'colorize'
