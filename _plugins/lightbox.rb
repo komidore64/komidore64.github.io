@@ -34,9 +34,9 @@ module Jekyll
     end
 
     def render(_)
-      data_title = @parse_opts[:title].nil? ? '' : %{ data-title="#{@parse_opts[:title]}"}
-      alt = %{ alt="#{@parse_opts[:alt].nil? ? @group : @parse_opts[:alt]}"}
-      %{<a href="#{@filepath}" data-lightbox="#{@group}"#{data_title}><img src="#{@filepath}"#{alt}/></a>}
+      data_title = @parse_opts[:title].nil? ? '' : %Q{ data-title="#{@parse_opts[:title]}"}
+      alt = %Q{ alt="#{@parse_opts[:alt].nil? ? @group : @parse_opts[:alt]}"}
+      %Q{<a href="#{@filepath}" data-lightbox="#{@group}"#{data_title}><img src="#{@filepath}"#{alt}/></a>}
     end
 
     private
