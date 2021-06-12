@@ -1,30 +1,595 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>{{ site.title | xml_escape }}</title>
-        <description>{{ site.description | xml_escape }}</description>
-        <link>{{ site.github.url }}{{ site.baseurl }}/</link>
-        <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.github.url }}" rel="self" type="application/rss+xml"/>
-        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-        <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-        <generator>Jekyll v{{ jekyll.version }}</generator>
-        {% for post in site.posts limit:10 %}
+        <title>adam price</title>
+        <description>&lt;h1&gt;maprys.net&lt;/h1&gt;&lt;h3&gt;ramblings and tech&lt;/h3&gt;</description>
+        <link>/</link>
+        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 11 Jun 2021 20:26:36 -0400</pubDate>
+        <lastBuildDate>Fri, 11 Jun 2021 20:26:36 -0400</lastBuildDate>
+        <generator>Jekyll v3.9.0</generator>
+        
         <item>
-            <title>{{ post.title | xml_escape }}</title>
-            <description>{{ post.content | xml_escape }}</description>
-            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-            <link>{{ post.url | prepend: site.baseurl | prepend: site.github.url }}</link>
-            <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.github.url }}</guid>
-            {% for tag in post.tags %}
-            <category>{{ tag | xml_escape }}</category>
-            {% endfor %}
-            {% for cat in post.categories %}
-            <category>{{ cat | xml_escape }}</category>
-            {% endfor %}
+            <title>looking back</title>
+            <description>&lt;p&gt;Wow it’s been a while since I’ve written anything, huh?
+It didn’t help that 2020 was quite the awful, stressful, eventful year, but I can’t say it was all bad.&lt;/p&gt;
+
+&lt;p&gt;Over the past 4-5 years I’d been getting plugged into the fighting game community (FGC) in my area.
+Pre-2020, I’d had a lot of fun making friends at local FG events and seeing my skills and Guilty Gear growing.
+I was thankful for the number of monthly events that were relatively close to me, but I disliked that 100% of them were tournament focused.
+With 3 hours of driving time or less, I could have 3 Saturdays out of the month filled with tournaments.
+This was amazing, but I found myself wanting more non-tournament time with my new fighting game friends.
+That’s when I decided to see if I could run my own weekly event for casual training and friendship.
+&lt;em&gt;Event Horizon Games&lt;/em&gt; in Garner was the first place I reached out to.
+They were extremely accommodating and within a couple months, &lt;em&gt;Monday Fight Club&lt;/em&gt; (MFC) was averaging 15-20 people weekly!
+I’m happy to report that I had lots of regulars, some driving from as far as Durham every week.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately the pandemic has put a big fat hold on MFC.
+Added to this annoyance came sad news in December that &lt;em&gt;Event Horizon Games&lt;/em&gt; would be closing.
+MFC will have to find a new home, but I’ll make sure we can keep playing in some form or fashion.&lt;/p&gt;
+
+&lt;p&gt;Organizing &lt;em&gt;Monday Fight Club&lt;/em&gt; has been a wonderful learning experience.
+It’s given me the confidence to attempt future events and maybe even tournaments!
+I’ve had plenty of help from knowledgeable folks in the local scene.
+I’m forever grateful for their input and encouragement.
+There are good times ahead for the FGC both locally and globally.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;My amazing wife graduated from culinary school this past semester.
+I am overflowing with pride in her accomplishments – overflowing straight onto the bathroom scale!
+It has been such a joy seeing her set a career course with excitement.&lt;/p&gt;
+
+&lt;p&gt;I look forward to bragging about the delicious dishes she prepares to any ear that will listen.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I bought a 1991 Volkswagen Golf GTI 16v that I cruised around in for a year before selling.
+Of course I found out it needed massively expensive work &lt;em&gt;after&lt;/em&gt; I bought it.
+This realization lead me to prematurely panic sell the car.&lt;/p&gt;
+
+&lt;p&gt;I miss putting around in that insanely loud, rattly go-kart.
+It was such a joy to drive.
+Maybe there’s another fun car in the future.
+Fingers crossed!&lt;/p&gt;
+
+&lt;p&gt;Speaking of vehicles, I’ve also bought and sold a motorcycle since last I wrote!
+I had a great time riding, but discovered it ultimately wasn’t for me.
+Happy that I was able to try it.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Arcade games are so cool y’all!
+After spending the last few years with two Sega Blast City arcade cabinets and a handful of games, I can tell you the hobby is rad.
+Expensive, but rad as hell.&lt;/p&gt;
+
+&lt;p&gt;I started out by having a big game room upstairs with the machines and a giant 70” TV.
+It was fun for a time, but then I started going up there less and less.
+There was a spell where I hardly touched the arcade machines (heaven forbid) for over a month.&lt;/p&gt;
+
+&lt;p&gt;The decision was finally made (due to pressure from my wife) to move all my game stuff downstairs by building out a full fledged and always connected gaming room.
+The upstairs situation was only ever half done because I was always having to plug and unplug various consoles based on what I wanted to play.
+This time around I’m building a full rack of hardware with matrix A/V switches, power bars, and network cables so I can have everything hooked up constantly.
+It’s still unfinished at the moment, but rest assured it’s going to be awesome and I’ll probably write about it once I’ve got the bugs ironed out.&lt;/p&gt;
+
+&lt;p&gt;I even have another arcade machine on the way!
+Stay tuned …&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Okay, that’s probably enough for these little shotgun updates.
+If you’re still reading this far into the article, I commend you for dealing with my horrible writing.
+It’s a good thing writing prose isn’t my day job.&lt;/p&gt;
+
+&lt;p&gt;I hope to write more in the coming days/weeks/months (we probably all say that, don’t we?) about whatever comes to mind.
+Check back if that piques your interest.
+Until then, stay safe my friends!&lt;/p&gt;
+</description>
+            <pubDate>Sat, 23 Jan 2021 00:00:00 -0500</pubDate>
+            <link>/2021/01/23/looking-back-at-twenty-twenty.html</link>
+            <guid isPermaLink="true">/2021/01/23/looking-back-at-twenty-twenty.html</guid>
+            
+            
         </item>
-        {% endfor %}
+        
+        <item>
+            <title>configure with xrandr</title>
+            <description>&lt;p&gt;Have you ever gone to plug an external monitor into your linux laptop and it didn’t result automatically in more desktop space?
+This has happened to me recently with a fairly old but still useful monitor that I have at home.
+Today I’m going to show you that using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt; isn’t near as intimidating as it sounds and that you can get your monitor up and running in just a couple commands.&lt;/p&gt;
+
+&lt;p&gt;I’ve started working from home a little more recently since I purchased my own home and now have a dedicated office.
+The 1920-by-1080 monitor on my laptop is certainly no slouch, but I still miss my two monitors whenever I’m not sitting at my desk at work.
+The monitor hooked up to my gaming PC is old, and the resolution isn’t great compared to current standards, but it suits my needs for now.
+I decided I’d plug in this monitor for whenever I work from home, giving no thought to it not being plug-and-play because it usually always is.
+With laptop powered up, I plug in this Envision.
+&lt;strong&gt;Black&lt;/strong&gt;.
+Maybe it’ll take a couple seconds so I’ll wait.
+&lt;strong&gt;Still black&lt;/strong&gt;.
+Hmm.
+The indicator light on the front of the monitor is still on standby-yellow.
+Time to figure this out.&lt;/p&gt;
+
+&lt;p&gt;At this point, I knew that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt; existed and I knew that is was for configuring displays.
+Other than that it just sounded intimidating because one thinks &lt;em&gt;there’s no way that manually configuring monitors can be easy&lt;/em&gt;.
+I spent a while doing some research on the Googles, mostly with links to Stack Overflow and a handful of other sites.
+I’ll be explaining my findings here.&lt;/p&gt;
+
+&lt;p&gt;First thing we need to do is confirm that the computer realizes a new display has been connected.
+Easiest way to do this is to compare the output of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr -q&lt;/code&gt; before and after your monitor is connected.
+In my case, Fedora 23 sees this Thinkpad’s internal display as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;eDP1&lt;/code&gt;, and the external display is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DP2-1&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;So let’s compare output:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ xrandr -q
+Screen 0: minimum 8 x 8, current 1920 x 1080, maximum 32767 x 32767
+eDP1 connected 1920x1080+0+0 (normal left inverted right x axis y axis) 308mm x 173mm
+   1920x1080     60.00*+
+   1400x1050     59.98
+   1600x900      60.00
+   1280x1024     60.02
+   1280x960      60.00
+   1368x768      60.00
+   1280x720      60.00
+   1024x768      60.00
+   1024x576      60.00
+   960x540       60.00
+   800x600       60.32    56.25
+   864x486       60.00
+   640x480       59.94
+   720x405       60.00
+   640x360       60.00
+DP1 disconnected (normal left inverted right x axis y axis)
+DP2 disconnected (normal left inverted right x axis y axis)
+HDMI1 disconnected (normal left inverted right x axis y axis)
+HDMI2 disconnected (normal left inverted right x axis y axis)
+VIRTUAL1 disconnected (normal left inverted right x axis y axis)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here is output with the external monitor connected:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ xrandr -q
+Screen 0: minimum 8 x 8, current 1920 x 1080, maximum 32767 x 32767
+eDP1 connected 1920x1080+0+0 (normal left inverted right x axis y axis) 308mm x 173mm
+   1920x1080     60.00*+
+   1400x1050     59.98
+   1600x900      60.00
+   1280x1024     60.02
+   1280x960      60.00
+   1368x768      60.00
+   1280x720      60.00
+   1024x768      60.00
+   1024x576      60.00
+   960x540       60.00
+   800x600       60.32    56.25
+   864x486       60.00
+   640x480       59.94
+   720x405       60.00
+   640x360       60.00
+DP1 disconnected (normal left inverted right x axis y axis)
+DP2 disconnected (normal left inverted right x axis y axis)
+DP2-1 connected (normal left inverted right x axis y axis)
+   1024x768      60.00
+   800x600       60.32    56.25
+   848x480       60.00
+   640x480       59.94
+DP2-2 disconnected (normal left inverted right x axis y axis)
+DP2-3 disconnected (normal left inverted right x axis y axis)
+HDMI1 disconnected (normal left inverted right x axis y axis)
+HDMI2 disconnected (normal left inverted right x axis y axis)
+VIRTUAL1 disconnected (normal left inverted right x axis y axis)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note the added &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DP2-1&lt;/code&gt; display, which is our newly connected display.
+If &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt;’s output doesn’t show you a newly connected display, unfortunately this article can assist you no further as troubleshooting a display connection is outside of our scope today.
+&lt;a href=&quot;http://www.nooooooooooooooo.com/&quot;&gt;:(&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After confirmation of a connected display, next we need to make sure &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt; has the correct modes for the monitor.
+Sadly, in my case, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt; had no idea what modes my display supported.
+If your desired resolution shows up, then you are great shape, my friend!
+You can skip this bit about creating a new display mode and adding it to the monitor.&lt;/p&gt;
+
+&lt;p&gt;My conversation with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;me:     Why didn't you auto-detect and configure my display?
+XRandR: I think this is a monitor?
+        Maybe.
+        Pretty sure.
+        ¯\_(ツ)_/¯
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We’re going to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cvt&lt;/code&gt; to give us all the proper information to create a new mode in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt;.
+The arguments that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cvt&lt;/code&gt; needs are (a) the horizonal number of pixels, (b) the vertical number of pixels, and optionally but probably a good idea to include (c) the monitor’s refresh rate, usually 60 Hz.
+Let’s run it.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cvt 1680 1050 60
+# 1680x1050 59.95 Hz (CVT 1.76MA) hsync: 65.29 kHz; pclk: 146.25 MHz
+Modeline &quot;1680x1050_60.00&quot;  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Taking that output, we feed it straight into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ xrandr --newmode &quot;1680x1050&quot; 146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Looking good, but we’re not done yet so don’t leave.
+That mode that we just created exists now, but &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt; needs to know that this new mode belongs to our monitor.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# xrandr --addmode MODE_NAME DISPLAY_NAME
+$ xrandr --addmode 1680x1050 DP2-1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;After all that, now we’re ready to actually tell the monitor to display using that mode.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ xrandr --output DP2-1 --mode 1680x1050
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;At this point, hopefully you’ll at least be seeing something on the monitor.
+We have the monitor working with linux now, which is great.
+At this point we’re just tweaking the placement.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt; has options for relative placement (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--above&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--below&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--right-of&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--left-of&lt;/code&gt;), as well as absolute pixel placement (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--pos&lt;/code&gt;).
+In my case I needed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--above&lt;/code&gt; to get this external monitor where I wanted it.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ xrandr --output DP2-1 --above eDP1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And there you have it.
+That is how I managed to manually configure my displays.
+I learned a lot about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt; during this whole process.
+At the same time, I’m sure there’s still so much more to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xrandr&lt;/code&gt; than what I uncovered here.
+I now have a &lt;strong&gt;huge&lt;/strong&gt; respect for plug-and-play monitor support because it’s wonderful to simply plug in a monitor and see it working correctly in a couple seconds.
+Kudos to you, whoever you are that makes that possible.&lt;/p&gt;
+
+&lt;p&gt;I hope that this information is helpful to someone along the way as they’re googling when their monitor shows up as blank.
+I’d love to be able to get this stuff to apply automatically whenever I plug this monitor in.
+I’ve not figured that out yet.
+If you know how to do that, holler at me.
+Until next time friends, multi-monitor on!&lt;/p&gt;
+
+</description>
+            <pubDate>Sun, 10 Apr 2016 00:00:00 -0400</pubDate>
+            <link>/2016/04/10/configure-with-xrandr.html</link>
+            <guid isPermaLink="true">/2016/04/10/configure-with-xrandr.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>build an ergodox keyboard</title>
+            <description>&lt;p&gt;Roughly a year ago, I decided to step into a hardcore corner of mechanical keyboards.
+I had grown fond of the mechanical switch click, the solid feel of a keyboard, and the myriad of keycaps available for customization.
+It was time to take my relationship with mechanical keyboards to the next level: I wanted to build my own.
+Enter the &lt;a href=&quot;http://ergodox.org&quot;&gt;ErgoDox&lt;/a&gt;: an open-source, split layout, vertically ortholinear, fully programmable keyboard.
+That’s a heck of a mouthful, but let’s break all that down.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open-source means that the designs of this keyboard are available to the general public at no charge.
+Anyone can use these designs to build their own keyboard, modify the designs, or redistribute them freely.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Split layout refers to a growing design in keyboards where the layout of the keys are split into left and right halves.
+This allows for the key arrangement to be placed at angles less stressful to the wrists and arms.
+There are other keyboards that utilize split layouts like the &lt;a href=&quot;https://www.trulyergonomic.com/store/index.php&quot;&gt;TEK Keyboard&lt;/a&gt; and the &lt;a href=&quot;https://www.kinesis-ergo.com/shop/advantage-for-pc-mac/&quot;&gt;Kinesis Advantage&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ortholinear describes the keys being in line with one another either vertically, horizontally, or both.
+The ErgoDox has vertically ortholinear arranged keys, meaning the keys are lined up in columns as opposed to rows like the standard keyboard.
+A standard keyboard that most people are familiar with is horizontally ortholinear.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Programmable.
+Keyboards need software to communicate with the computer, but usually the software on keyboards isn’t customizable.
+The ErgoDox’s software is &lt;a href=&quot;https://github.com/benblazak/ergodox-firmware&quot;&gt;available on Github&lt;/a&gt;.
+That makes it possible for you to move keys around if you don’t like where they are by default.
+You can make keys do more fancy things rather than just sending a letter to the computer.
+This allows you to tailor the operation of the ErgoDox to your liking with very few limits: a tinkerer’s delight!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/2015-07-26-build-an-ergodox-keyboard/ergodox_topdown.jpg&quot; data-lightbox=&quot;ergodox_topdown.jpg&quot;&gt;&lt;img src=&quot;/images/2015-07-26-build-an-ergodox-keyboard/ergodox_topdown.jpg&quot; alt=&quot;ergodox_topdown.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;parts--construction&quot;&gt;Parts &amp;amp; Construction&lt;/h2&gt;
+
+&lt;p&gt;The quickest and least expensive way to acquire parts for an ErgoDox is to find them yourself using the &lt;a href=&quot;http://ergodox.org/Hardware.aspx&quot;&gt;official parts list&lt;/a&gt;.
+Another avenue, if you’re more patient, is to purchase a &lt;a href=&quot;https://www.massdrop.com/buy/ergodox&quot;&gt;kit from Massdrop&lt;/a&gt; when they become available every six months or so.
+The Massdrop kit has been wildly popular as it comes with all parts needed to assemble an ErgoDox.
+There was an &lt;a href=&quot;https://www.indiegogo.com/projects/ergodox-ez-an-incredible-mechanical-keyboard&quot;&gt;Indiegogo&lt;/a&gt; a while ago for fully assembled ErgoDox boards that added some interesting fold out legs to the original design, but I believe it has since ended.
+You’ll need a good soldering iron, some wire cutters/strippers, and intermediate soldering skills.&lt;/p&gt;
+
+&lt;p&gt;The building process was straight forward.
+Nothing that someone with basic DIY electronics skills couldn’t handle.
+Massdrop provides &lt;a href=&quot;https://www.massdrop.com/ext/ergodox/assembly.php&quot;&gt;instructions&lt;/a&gt; that detail the process along with high-quality pictures.
+I took my time during the build which ended up taking me about 10 hours, but based on your skills you can probably do it quicker.
+The most difficult task I encountered was soldering the surface-mount diodes to the PCB due to their small size, and soldering the USB mini cable ends to the board.
+Be sure to test all the switches before you do the final assembly!
+I initially had three keys that didn’t work because of bad solder joints.&lt;/p&gt;
+
+&lt;h2 id=&quot;configuration&quot;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;After completing construction and ensuring all the ErgoDox’s switches are operational, then comes choosing your key layout.
+The easiest method is to use Massdrop’s &lt;a href=&quot;https://www.massdrop.com/ext/ergodox&quot;&gt;ErgoDox Configurator&lt;/a&gt; to setup your keys and layers.
+The ErgoDox software operates using a concept of layers on a stack.
+There is always a currently selected layer.
+Modifier keys can be used to switch between layers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/2015-07-26-build-an-ergodox-keyboard/configurator_layout.png&quot; data-lightbox=&quot;configurator_layout.png&quot;&gt;&lt;img src=&quot;/images/2015-07-26-build-an-ergodox-keyboard/configurator_layout.png&quot; alt=&quot;configurator_layout.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;How is this useful?
+The idea behind this is so that you can do more things with the same keys.
+For instance, I use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Home&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;End&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Page Up&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Page Down&lt;/code&gt; often, but there isn’t particularly an easy-to-reach place for them on the default layer, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Layer 0&lt;/code&gt;.
+I place those keys on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Layer 1&lt;/code&gt; using the same physical keys as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;K&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;L&lt;/code&gt;, respectively.
+In the image of my ErgoDox layout above, you’ll see that I can hold down &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[~L1]&lt;/code&gt; (near the left index finger) switching to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Layer 1&lt;/code&gt; making &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Home&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;End&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Page Up&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Page Down&lt;/code&gt; accessible under my right hand.
+Now I don’t have to stretch my hands to find those keys if I put them in an out-of-the-way place on the default layer.&lt;/p&gt;
+
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;I know this all sounds pretty weird.
+It certainly was for me when I first used the ErgoDox.
+Maybe it even sounds bad, but don’t worry!
+It gets much much better after about two weeks.
+I never timed my typing before switching to the ErgoDox, so I can’t confirm speed improvements.
+I must confess that I do prefer the ErgoDox, not simply for its uniqueness, but I’ve found there to be a bit of truth to its ergonomic differences to a standard QWERTY keyboard.
+Wrist pain previously experienced while typing has disappeared because the ErgoDox let’s me type with my arms, wrists, and hands in more natural resting positions.
+The novelty is cool in its own right, though.
+It has yet to get old for someone new to walk by my desk at work and ask, “Do you really type on that thing?”
+Maybe it will eventually, but I hope not :)&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I love typing on my ErgoDox.
+It’s a satisfying experience being able to use something at work every day that I assembled and tested myself.
+The ErgoDox certainly is a different beast from a normal keyboard, but I would recommend it to anyone who may be considering a more ergonomic keyboard.
+Feel free to contact me if you have any questions about the ErgoDox or mechanical keyboards in general.
+Until then, type on friends.&lt;/p&gt;
+</description>
+            <pubDate>Sun, 26 Jul 2015 00:00:00 -0400</pubDate>
+            <link>/2015/07/26/build-an-ergodox-keyboard.html</link>
+            <guid isPermaLink="true">/2015/07/26/build-an-ergodox-keyboard.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>set vim colors in iterm2</title>
+            <description>&lt;p&gt;I have been using &lt;a href=&quot;http://www.vim.org&quot;&gt;Vim&lt;/a&gt; almost exclusively for 3 years now.
+It has become my text editing workhorse for both code and also prose.
+Vim has become a joy to use and to continue configuring and tweaking.
+Many more paragraphs could be spent explaining the greatness of Vim to you, but I will refrain.
+Today we’re talking about colors in Vim.&lt;/p&gt;
+
+&lt;p&gt;I just recently switched to &lt;a href=&quot;https://www.iterm2.com&quot;&gt;iTerm 2&lt;/a&gt; from using OS X’s default Terminal.app.
+Terminal.app met my needs for the most part except its &lt;a href=&quot;http://kill-0.com/duplo/2011/03/02/tmux-with-terminal-app-line-wrapping-weirdness/&quot;&gt;inability to handle a long command that spilled into the next line&lt;/a&gt;.
+I started using Terminal.app back in 2008, and this bug is still occurring.
+I decided to check out iTerm 2 after my buddy Og (&lt;a href=&quot;https://twitter.com/OgMaciel&quot;&gt;@ogmaciel&lt;/a&gt;) suggested it because, “it’s awesome, dude!”&lt;/p&gt;
+
+&lt;p&gt;I’m happy with iTerm 2 so far, but it took me a few to figure out the color situation.
+I like a dark background with light text in my terminal, but I prefer Vim’s light-background color palette to its dark-background colors.
+This was never an issue in Terminal.app, but it seems that iTerm 2 is setting some value that Vim interprets causing it to default to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background=dark&lt;/code&gt;.
+After poking around Vim’s help docs and experimenting with ordering I came upon the &lt;a href=&quot;https://github.com/komidore64/dotfiles/commit/9ec628e037a5f186711736a668465607a34b8cea&quot;&gt;magic incantation&lt;/a&gt; providing my desired results:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-viml&quot; data-lang=&quot;viml&quot;&gt;&lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nocompatible&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[...]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;colorscheme&lt;/span&gt; default
+&lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;t_Co&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;256&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;light&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[...]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;I haven’t messed with it a whole lot, but my guess is these settings would go best near the top of your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.vimrc&lt;/code&gt; before you load any plugins or start changing other colors.
+For more info on these settings, please see Vim’s help system with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:help nocompatible&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:help colorscheme&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:help t_Co&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:help 'background'&lt;/code&gt;, respectively.&lt;/p&gt;
+
+&lt;p&gt;Now I have iTerm 2 set up just the way I like it, with Vim colors the way I like them.
+All quiet on the terminal front.
+Happy Vimming!&lt;/p&gt;
+
+&lt;p&gt;Anybody know how I can keep the exact same settings as above but give &lt;a href=&quot;https://github.com/b4winckler/macvim&quot;&gt;MacVim&lt;/a&gt; a black background?&lt;/p&gt;
+
+</description>
+            <pubDate>Wed, 10 Jun 2015 00:00:00 -0400</pubDate>
+            <link>/2015/06/10/set-vim-colors-in-iterm2.html</link>
+            <guid isPermaLink="true">/2015/06/10/set-vim-colors-in-iterm2.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>set openshift bundle_without variable</title>
+            <description>&lt;p&gt;I spent far too long trying to figure out how to set OpenShift’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BUNDLE_WITHOUT&lt;/code&gt; variable to limit the gems installed on my OpenShift container.
+I searched far and wide through OpenShift’s &lt;a href=&quot;https://developers.openshift.com/index.html&quot;&gt;documentation&lt;/a&gt; for information on how to do so.
+At the time, the small amount of relevant &lt;a href=&quot;https://developers.openshift.com/en/ruby-environment-variables.html&quot;&gt;helpdoc&lt;/a&gt; that existed turned out to not be particularly helpful, or I was doing something wrong.
+There is some OpenShift &lt;a href=&quot;https://developers.openshift.com/en/managing-environment-variables.html#custom-variables&quot;&gt;doc&lt;/a&gt; explaining that you can set environment variables using the following command from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rhc&lt;/code&gt; tool.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;rhc &lt;span class=&quot;nb&quot;&gt;env set &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;BUNDLE_WITHOUT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'development test'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--app&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'maprys'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;I could’ve done that, I guess, but I didn’t want to.
+I do most of this site’s coding on &lt;a href=&quot;https://www.nitrous.io/join/Ne4RmyEvhD8?utm_source=nitrous.io&amp;amp;utm_medium=copypaste&amp;amp;utm_campaign=referral&quot;&gt;Nitrous.io&lt;/a&gt; and some stubborn part of me didn’t want to eat up disk space with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rhc&lt;/code&gt; tool.
+Pedantic, probably.&lt;/p&gt;
+
+&lt;p&gt;Anyways, I figured out a way to set environment variables without having to use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rhc&lt;/code&gt; tool.
+I can checkout the code from anywhere, change/add/remove variables, and I don’t have to install an additional tool to do so.
+You should already have a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.openshift&lt;/code&gt; directory with some stuff in there.
+Create &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.openshift/action_hooks/pre_build&lt;/code&gt; and open it in your favorite editor.
+Inside, you’ll want to paste the following code.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/env bash&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$OPENSHIFT_CARTRIDGE_SDK_BASH&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; set_env_var&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;function&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;set_env_var &lt;span class=&quot;s1&quot;&gt;'BUNDLE_WITHOUT'&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'development test'&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$OPENSHIFT_HOMEDIR&lt;/span&gt;/.env/user_vars
+&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Adding this code finally gave me the proper &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; command in the container that I was looking for.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git push openshift master
+...
+remote: Waiting for stop to finish
+remote: Force clean build enabled - cleaning dependencies
+remote: Building git ref 'master', commit 1825024
+remote: Building Ruby cartridge
+remote: bundle install --deployment --without 'development test' --path ./app-root/repo/vendor/bundle
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Hooray!&lt;/p&gt;
+
+&lt;p&gt;You could use this same method to set other environment variables if you so desire.
+Bash to the rescue.
+Happy OpenShifting!&lt;/p&gt;
+
+</description>
+            <pubDate>Mon, 02 Mar 2015 00:00:00 -0500</pubDate>
+            <link>/2015/03/02/set-openshift-bundle_without.html</link>
+            <guid isPermaLink="true">/2015/03/02/set-openshift-bundle_without.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>maprys website history</title>
+            <description>&lt;p&gt;&lt;strong&gt;Maprys.net&lt;/strong&gt; started out back in my college days at &lt;a href=&quot;http://elon.edu&quot;&gt;Elon&lt;/a&gt;.
+I worked for a student/faculty group named &lt;a href=&quot;https://wiki.elon.edu/pages/viewpage.action?pageId=39321890&quot;&gt;elite&lt;/a&gt; (Emerging Leaders in Technology At Elon).
+Our job was to provide basic to intermediate software support to students, faculty, and the community.
+One requirement for the job was that we had to have our own personal website to display some of our tech skills and learn new technologies at the same time.
+So my little college brain got to work trying to come up with something awesome that I could be proud of.&lt;/p&gt;
+
+&lt;p&gt;It began as a PHP and JavaScript application and it stayed that way for quite some time even after graduation.
+I felt like I had programmed the site in a clever way at the time, but now I’m not so sure.
+Regardless, you can view the last iteration of the &lt;strong&gt;maprys.net&lt;/strong&gt; PHP creation on &lt;a href=&quot;https://github.com/komidore64/maprys.net/tree/old-php&quot;&gt;Github&lt;/a&gt; in all its “glory.”&lt;/p&gt;
+
+&lt;p&gt;The revamp process commences.
+I wanted to get away from PHP and remove as much JavaScript as possible.
+I had since become a Ruby programmer, so I wanted to use as much Ruby as I could.
+My desire was to find a web-framework/tool that would be small and easy to work with.
+Ease of setup was very high on the must-have list.
+After some time spent researching I eventually came across &lt;a href=&quot;http://nestacms.com&quot;&gt;Nesta CMS&lt;/a&gt;.
+It had quite a few nice features that I very much liked:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;built in Ruby&lt;/li&gt;
+  &lt;li&gt;uses &lt;a href=&quot;http://sinatrarb.com&quot;&gt;Sinatra&lt;/a&gt; as its web-application&lt;/li&gt;
+  &lt;li&gt;no database; the content consists of text files on the filesystem&lt;/li&gt;
+  &lt;li&gt;supports multiple markup languages out of the box: &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt;, &lt;a href=&quot;http://haml.info&quot;&gt;Haml&lt;/a&gt;, or plain ole HTML&lt;/li&gt;
+  &lt;li&gt;no JavaScript&lt;/li&gt;
+  &lt;li&gt;easy to set up a development server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With Nesta, I can write all my pages and posts in Markdown, which I’ve learned since being on Github everyday.
+Perfect!
+Let me show you how easy it is to write a new post:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ vim content/pages/new-blog-post.md&lt;/code&gt; *&lt;/li&gt;
+  &lt;li&gt;write some stuff&lt;/li&gt;
+  &lt;li&gt;navigate your browser to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://dev-server/new-blog-post&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;profit!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once I had a website that I was happy with, then I needed to figure out how I was going to host it.
+I had no idea that &lt;a href=&quot;http://openshift.com&quot;&gt;OpenShift&lt;/a&gt; was what I needed until I started reading about it.
+&lt;em&gt;Hey, what’s this new Red Hat product that we’re offering that seems to be making a lot of buzz?&lt;/em&gt;
+OpenShift served my needs perfectly.
+It hosts small, containerized applications, for free.
+Sweet!
+It’s main mechanism for getting code into the containers was &lt;a href=&quot;http://git-scm.com&quot;&gt;Git&lt;/a&gt;.
+Can this get any better?!
+In less than 30 minutes, I had my Nesta application running in an OpenShift container on the Web.
+The only money that has left my wallet has been to pay for my domain.&lt;/p&gt;
+
+&lt;p&gt;A nice-to-have feature would be to have some automatic deployment to my OpenShift container whenever I push new code to Github.
+&lt;a href=&quot;http://snap-ci.com&quot;&gt;Snap-CI&lt;/a&gt; was able to make that happen.
+Snap-CI is a hosted continuous integration tool that hooks in nicely with Github.
+I’ve set up Snap-CI to push my new code to OpenShift whenever I push new commits to Github.
+This allows me to focus on coding and putting content into the pages as opposed to wasting time getting new code into OpenShift whenever I’m done.&lt;/p&gt;
+
+&lt;p&gt;I love that I was able to bring a bunch of tools together to create a workflow that I’m happy with.
+Knowing that I put in effort to making these tools work together, then seeing the end result has been very satisfying.&lt;/p&gt;
+
+&lt;h2 id=&quot;tldr&quot;&gt;tl;dr&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://nestacms.com&quot;&gt;Nesta CMS&lt;/a&gt; is the framework.
+Code lives on &lt;a href=&quot;https://github.com/komidore64/maprys.net&quot;&gt;Github&lt;/a&gt;.
+Hosted on &lt;a href=&quot;http://openshift.com&quot;&gt;OpenShift&lt;/a&gt;.
+Deployments using &lt;a href=&quot;http://snap-ci.com/komidore64/maprys.net/branch/master&quot;&gt;Snap-CI&lt;/a&gt;.
+Feeling proud.&lt;/p&gt;
+
+&lt;h2 id=&quot;update-20161006&quot;&gt;update 2016/10/06&lt;/h2&gt;
+
+&lt;p&gt;Everything you just read about isn’t used anymore!
+Hooray.
+Openshift started phasing out their free tier, so I switched to &lt;a href=&quot;http://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;.
+Github Pages uses &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; as its static-site generator, and I found this &lt;a href=&quot;https://github.com/hemangsk/DevJournal&quot;&gt;DevJournal&lt;/a&gt; theme made by Hemang Kumar on &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;Jekyll Themes&lt;/a&gt;.
+The site’s code still lives on Github, but it has moved to &lt;a href=&quot;http://github.com/komidore64/komidore64.github.io&quot;&gt;komidore64/komidore64.github.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h6 id=&quot;-the-best-text-editor-in-the-world&quot;&gt;* the best text editor in the world&lt;/h6&gt;
+</description>
+            <pubDate>Tue, 24 Feb 2015 00:00:00 -0500</pubDate>
+            <link>/2015/02/24/maprys-website-history.html</link>
+            <guid isPermaLink="true">/2015/02/24/maprys-website-history.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>steam early access</title>
+            <description>&lt;p&gt;Some time within the last two years, Steam has started offering what they call early-access games.
+An early-access game is one that has not yet officially released or finished yet, but is still made available to the public for play, similar to a public beta.
+I think the idea behind this move was to allow developers to make their games a bit more community developed.&lt;/p&gt;
+
+&lt;p&gt;It would give the developers a larger number of playtesters.
+More playtesters would theoretically lead to more exposed bugs and exploits allowing the game-makers to develop a more solid game in the end.&lt;/p&gt;
+
+&lt;p&gt;For the players, this meant you could play a new game sooner!
+How could this not be a bad deal?&lt;/p&gt;
+
+&lt;p&gt;I’m no stranger to betas, closed or open, having participated in one or two video game betas in the past.
+They were enjoyable experiences.
+I remember playing in the Halo 3 Multiplayer Beta and the exhilarating experience along with it.
+Something new that’s not been released yet!&lt;/p&gt;
+
+&lt;p&gt;Now we come to Steam’s early-access games which are essentially open-betas of in-development games.
+I’ve participated in two early-access games to date: Kerbal Space Program and Starbound.
+I must confess that I caved in to purchasing Planetary Annihilation during this year’s Summer Sale, though I have not played it yet.
+My experiences with early-access games hasn’t been quite as exciting as those from previous betas that I’ve been a part of.&lt;/p&gt;
+
+&lt;p&gt;Betas before Steam’s early-access, usually had very limited lifespans.
+Most of the time, they lasted maybe a weekend or one to two weeks.
+This short period of time allowed only for a small taste of the action.
+This allowed for the developers to observe playtesting, but the short timespace also prevented players from exploring too much of the game.
+The beta was very much a sample of what was to come, and succeeded in adding to the hype of a game, without exposing too much.&lt;/p&gt;
+
+&lt;p&gt;I believe the reason for having betas has largely shifted.
+Originally, betas where done by developers to gain knowledge about how players would play their games.
+Now, in my opinion largely due to a handful of successful Kickstarter-funded video games, developers are using betas to acquire money for their games more early on in the process.
+They are front-loading their profit.
+I believe this is hurting the game-industry more than it’s helping.
+I wager there will be lots of early-access games that will never see the light of an official release.
+The incoming money will slow to an almost non-existant trickle, and the projects will be abandoned or developers will lose motivation because they’ve earned the majority of the profit from that game already!&lt;/p&gt;
+
+&lt;p&gt;My distaste for Steam’s early-access games is due mostly to the fact that I’ve grown tired of the early-access games as a whole long before they’ve released.
+Take Kerbal Space Program for example.
+I purchased KSP on Aug 4, 2013.
+Within two months, I had played all that I wanted of Kerbal and had since moved on to other games.
+I’ve exhausted my excitement towards the game long before it’s ever released (as of today, July 14, 2014, KSP still has not released yet)!
+The exact same thing happened to me with Starbound.
+I purchased Starbound on February 6, 2014 and the state of the game at that time deterred me from wanting to play it again.
+The gameplay was fairly bland and there wasn’t much to do other than kill monsters and loot them.&lt;/p&gt;
+
+&lt;p&gt;Having played both of these early-access games and exhausting my interest in them, I feel that I’ve cast an unfair opinion on an unfinished product, but it’s too late!
+I have very little interest in playing them again.&lt;/p&gt;
+
+&lt;p&gt;Now, I avoid early-access games, which is unfortunate because it seems that more and more games are moving to the early-access model.
+Nowadays while browsing the Steam Store, a game which catch my eye, but after viewing it, I must move on.&lt;/p&gt;
+
+&lt;p&gt;I’d rather not ruin my opinion of a game before it’s ever released.&lt;/p&gt;
+
+</description>
+            <pubDate>Mon, 14 Jul 2014 00:00:00 -0400</pubDate>
+            <link>/2014/07/14/steam-early-access.html</link>
+            <guid isPermaLink="true">/2014/07/14/steam-early-access.html</guid>
+            
+            
+        </item>
+        
     </channel>
 </rss>

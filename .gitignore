@@ -1,7 +1,0 @@
-# site stuff
-_site
-.jekyll-metadata
-.sass-cache
-
-# gemdir
-.gems

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="adam price" property="og:site_name">
+    
+    <meta content="set openshift bundle_without variable" property="og:title">
+    
+    
+    <meta content="article" property="og:type">
+    
+    
+    <meta content="<h1>maprys.net</h1><h3>ramblings and tech</h3>" property="og:description">
+    
+    
+    <meta content="/2015/03/02/set-openshift-bundle_without.html" property="og:url">
+    
+    
+    <meta content="2015-03-02T00:00:00-05:00" property="article:published_time">
+    <meta content="/about/" property="article:author">
+    
+
+    <meta property="og:image" content="">
+
+    
+    
+    
+    
+    
+    
+    <title>set openshift bundle_without variable</title>
+    <meta name="description" content="I spent far too long trying to figure out how to set OpenShift’s BUNDLE_WITHOUT variable to limit the gems installed on my OpenShift container.I searched far...">
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" type="text/javascript"></script>
+    <script src="/js/lightbox.js" type="text/javascript"></script>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="/css/lightbox.css" type="text/css">
+
+    <!-- fonts -->
+    <link href="/css/overpass.css" rel="stylesheet" type="text/css">
+    <link href="/css/overpass-mono.css" rel="stylesheet" type="text/css">
+
+    <link rel="canonical" href="/2015/03/02/set-openshift-bundle_without.html">
+
+    <!-- rss -->
+    <link rel="alternate" type="application/rss+xml" title="adam price" href="/feed.xml">
+</head>
+
+    <body>
+        <section>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">adam price</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    
+                    
+                    <li>
+                        <a href="/about">
+                            who am i
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/video-games">
+                            video games
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</section>
+
+        <section>
+            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="post-title-main" itemprop="name headline">
+                set openshift bundle_without variable
+            </h1>
+            <p class="post-meta">
+                <time datetime="2015-03-02T00:00:00-05:00" itemprop="datePublished">
+                    Mar 2, 2015
+                </time>
+                
+            </p>
+        </div>
+    </div>
+    <div class="post-content container" itemprop="articleBody">
+        <p>I spent far too long trying to figure out how to set OpenShift’s <code class="language-plaintext highlighter-rouge">BUNDLE_WITHOUT</code> variable to limit the gems installed on my OpenShift container.
+I searched far and wide through OpenShift’s <a href="https://developers.openshift.com/index.html">documentation</a> for information on how to do so.
+At the time, the small amount of relevant <a href="https://developers.openshift.com/en/ruby-environment-variables.html">helpdoc</a> that existed turned out to not be particularly helpful, or I was doing something wrong.
+There is some OpenShift <a href="https://developers.openshift.com/en/managing-environment-variables.html#custom-variables">doc</a> explaining that you can set environment variables using the following command from the <code class="language-plaintext highlighter-rouge">rhc</code> tool.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">rhc <span class="nb">env set </span><span class="nv">BUNDLE_WITHOUT</span><span class="o">=</span><span class="s1">'development test'</span> <span class="nt">--app</span> <span class="s1">'maprys'</span></code></pre></figure>
+
+<p>I could’ve done that, I guess, but I didn’t want to.
+I do most of this site’s coding on <a href="https://www.nitrous.io/join/Ne4RmyEvhD8?utm_source=nitrous.io&amp;utm_medium=copypaste&amp;utm_campaign=referral">Nitrous.io</a> and some stubborn part of me didn’t want to eat up disk space with the <code class="language-plaintext highlighter-rouge">rhc</code> tool.
+Pedantic, probably.</p>
+
+<p>Anyways, I figured out a way to set environment variables without having to use the <code class="language-plaintext highlighter-rouge">rhc</code> tool.
+I can checkout the code from anywhere, change/add/remove variables, and I don’t have to install an additional tool to do so.
+You should already have a <code class="language-plaintext highlighter-rouge">.openshift</code> directory with some stuff in there.
+Create <code class="language-plaintext highlighter-rouge">.openshift/action_hooks/pre_build</code> and open it in your favorite editor.
+Inside, you’ll want to paste the following code.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/usr/bin/env bash</span>
+
+<span class="nb">source</span> <span class="nv">$OPENSHIFT_CARTRIDGE_SDK_BASH</span>
+
+<span class="k">if</span> <span class="o">[</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">type</span> <span class="nt">-t</span> set_env_var<span class="si">)</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"function"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span>set_env_var <span class="s1">'BUNDLE_WITHOUT'</span> <span class="s1">'development test'</span> <span class="nv">$OPENSHIFT_HOMEDIR</span>/.env/user_vars
+<span class="k">fi</span></code></pre></figure>
+
+<p>Adding this code finally gave me the proper <code class="language-plaintext highlighter-rouge">bundle install</code> command in the container that I was looking for.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git push openshift master
+...
+remote: Waiting for stop to finish
+remote: Force clean build enabled - cleaning dependencies
+remote: Building git ref 'master', commit 1825024
+remote: Building Ruby cartridge
+remote: bundle install --deployment --without 'development test' --path ./app-root/repo/vendor/bundle
+...
+</code></pre></div></div>
+
+<p>Hooray!</p>
+
+<p>You could use this same method to set other environment variables if you so desire.
+Bash to the rescue.
+Happy OpenShifting!</p>
+
+
+    </div>
+</article>
+
+        </section>
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container footer-content">
+        copyright <i class="fa fa-copyright"></i> 2021 m. adam price<br>
+        powered by <a href="https://pages.github.com">github-pages</a>
+    </div>
+</nav>
+
+    </body>
+</html>

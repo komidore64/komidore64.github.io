@@ -1,41 +1,231 @@
----
-layout: default
----
-<section>
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="adam price" property="og:site_name">
+    
+    <meta content="adam price" property="og:title">
+    
+    
+    <meta content="website" property="og:type">
+    
+    
+    <meta content="<h1>maprys.net</h1><h3>ramblings and tech</h3>" property="og:description">
+    
+    
+    <meta content="/" property="og:url">
+    
+    
+
+    <meta property="og:image" content="">
+
+    
+    
+    <title>adam price</title>
+    <meta name="description" content="<h1>maprys.net</h1><h3>ramblings and tech</h3>">
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" type="text/javascript"></script>
+    <script src="/js/lightbox.js" type="text/javascript"></script>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="/css/lightbox.css" type="text/css">
+
+    <!-- fonts -->
+    <link href="/css/overpass.css" rel="stylesheet" type="text/css">
+    <link href="/css/overpass-mono.css" rel="stylesheet" type="text/css">
+
+    <link rel="canonical" href="/">
+
+    <!-- rss -->
+    <link rel="alternate" type="application/rss+xml" title="adam price" href="/feed.xml">
+</head>
+
+    <body>
+        <section>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">adam price</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    
+                    
+                    <li>
+                        <a href="/about">
+                            who am i
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/video-games">
+                            video games
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</section>
+
+        <section>
+            <section>
     <div class="jumbotron">
         <div class="container">
-            {{ site.description }}
+            <h1>maprys.net</h1><h3>ramblings and tech</h3>
         </div>
     </div>
 </section>
 <section id="page-content">
     <div class="container">
         <div class="post-list">
-            {% for post in site.posts %}
+            
             <div class="post-box">
                 <div class="post-title">
-                    <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    <a class="post-title" href="/2021/01/23/looking-back-at-twenty-twenty.html">looking back</a>
                 </div>
                 <div class="post-excerpt">
-                    {{ post.content | strip_html | truncatewords: 20 }}
+                    Wow it’s been a while since I’ve written anything, huh? It didn’t help that 2020 was quite the awful, stressful,...
                 </div>
                 <div class="posted">
                     posted on
                     <span class="posted-on">
-                        {{ post.date | date: "%A, %B %-d, %Y" }}
+                        Saturday, January 23, 2021
                     </span>
-                    {% if post.categories.size > 0 %}
-                    <span class="in">
-                        in
-                    </span>
-                    <span class="categories-on">
-                        {% for category in post.categories %}
-                        {{ category }}{% if forloop.last %}{% else %}, {% endif %}
-                        {% endfor %}
-                    </span>
-                    {% endif %}
+                    
                 </div>
             </div>
-            {% endfor %}
+            
+            <div class="post-box">
+                <div class="post-title">
+                    <a class="post-title" href="/2016/04/10/configure-with-xrandr.html">configure with xrandr</a>
+                </div>
+                <div class="post-excerpt">
+                    Have you ever gone to plug an external monitor into your linux laptop and it didn’t result automatically in more...
+                </div>
+                <div class="posted">
+                    posted on
+                    <span class="posted-on">
+                        Sunday, April 10, 2016
+                    </span>
+                    
+                </div>
+            </div>
+            
+            <div class="post-box">
+                <div class="post-title">
+                    <a class="post-title" href="/2015/07/26/build-an-ergodox-keyboard.html">build an ergodox keyboard</a>
+                </div>
+                <div class="post-excerpt">
+                    Roughly a year ago, I decided to step into a hardcore corner of mechanical keyboards. I had grown fond of...
+                </div>
+                <div class="posted">
+                    posted on
+                    <span class="posted-on">
+                        Sunday, July 26, 2015
+                    </span>
+                    
+                </div>
+            </div>
+            
+            <div class="post-box">
+                <div class="post-title">
+                    <a class="post-title" href="/2015/06/10/set-vim-colors-in-iterm2.html">set vim colors in iterm2</a>
+                </div>
+                <div class="post-excerpt">
+                    I have been using Vim almost exclusively for 3 years now. It has become my text editing workhorse for both...
+                </div>
+                <div class="posted">
+                    posted on
+                    <span class="posted-on">
+                        Wednesday, June 10, 2015
+                    </span>
+                    
+                </div>
+            </div>
+            
+            <div class="post-box">
+                <div class="post-title">
+                    <a class="post-title" href="/2015/03/02/set-openshift-bundle_without.html">set openshift bundle_without variable</a>
+                </div>
+                <div class="post-excerpt">
+                    I spent far too long trying to figure out how to set OpenShift’s BUNDLE_WITHOUT variable to limit the gems installed...
+                </div>
+                <div class="posted">
+                    posted on
+                    <span class="posted-on">
+                        Monday, March 2, 2015
+                    </span>
+                    
+                </div>
+            </div>
+            
+            <div class="post-box">
+                <div class="post-title">
+                    <a class="post-title" href="/2015/02/24/maprys-website-history.html">maprys website history</a>
+                </div>
+                <div class="post-excerpt">
+                    Maprys.net started out back in my college days at Elon. I worked for a student/faculty group named elite (Emerging Leaders...
+                </div>
+                <div class="posted">
+                    posted on
+                    <span class="posted-on">
+                        Tuesday, February 24, 2015
+                    </span>
+                    
+                </div>
+            </div>
+            
+            <div class="post-box">
+                <div class="post-title">
+                    <a class="post-title" href="/2014/07/14/steam-early-access.html">steam early access</a>
+                </div>
+                <div class="post-excerpt">
+                    Some time within the last two years, Steam has started offering what they call early-access games. An early-access game is...
+                </div>
+                <div class="posted">
+                    posted on
+                    <span class="posted-on">
+                        Monday, July 14, 2014
+                    </span>
+                    
+                </div>
+            </div>
+            
         </div>
 </section>
+
+        </section>
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container footer-content">
+        copyright <i class="fa fa-copyright"></i> 2021 m. adam price<br>
+        powered by <a href="https://pages.github.com">github-pages</a>
+    </div>
+</nav>
+
+    </body>
+</html>

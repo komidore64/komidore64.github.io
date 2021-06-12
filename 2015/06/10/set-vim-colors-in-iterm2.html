@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="adam price" property="og:site_name">
+    
+    <meta content="set vim colors in iterm2" property="og:title">
+    
+    
+    <meta content="article" property="og:type">
+    
+    
+    <meta content="<h1>maprys.net</h1><h3>ramblings and tech</h3>" property="og:description">
+    
+    
+    <meta content="/2015/06/10/set-vim-colors-in-iterm2.html" property="og:url">
+    
+    
+    <meta content="2015-06-10T00:00:00-04:00" property="article:published_time">
+    <meta content="/about/" property="article:author">
+    
+
+    <meta property="og:image" content="">
+
+    
+    
+    
+    
+    
+    
+    <title>set vim colors in iterm2</title>
+    <meta name="description" content="I have been using Vim almost exclusively for 3 years now.It has become my text editing workhorse for both code and also prose.Vim has become a joy to use and...">
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" type="text/javascript"></script>
+    <script src="/js/lightbox.js" type="text/javascript"></script>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="/css/lightbox.css" type="text/css">
+
+    <!-- fonts -->
+    <link href="/css/overpass.css" rel="stylesheet" type="text/css">
+    <link href="/css/overpass-mono.css" rel="stylesheet" type="text/css">
+
+    <link rel="canonical" href="/2015/06/10/set-vim-colors-in-iterm2.html">
+
+    <!-- rss -->
+    <link rel="alternate" type="application/rss+xml" title="adam price" href="/feed.xml">
+</head>
+
+    <body>
+        <section>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">adam price</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    
+                    
+                    <li>
+                        <a href="/about">
+                            who am i
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/video-games">
+                            video games
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</section>
+
+        <section>
+            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="post-title-main" itemprop="name headline">
+                set vim colors in iterm2
+            </h1>
+            <p class="post-meta">
+                <time datetime="2015-06-10T00:00:00-04:00" itemprop="datePublished">
+                    Jun 10, 2015
+                </time>
+                
+            </p>
+        </div>
+    </div>
+    <div class="post-content container" itemprop="articleBody">
+        <p>I have been using <a href="http://www.vim.org">Vim</a> almost exclusively for 3 years now.
+It has become my text editing workhorse for both code and also prose.
+Vim has become a joy to use and to continue configuring and tweaking.
+Many more paragraphs could be spent explaining the greatness of Vim to you, but I will refrain.
+Today we’re talking about colors in Vim.</p>
+
+<p>I just recently switched to <a href="https://www.iterm2.com">iTerm 2</a> from using OS X’s default Terminal.app.
+Terminal.app met my needs for the most part except its <a href="http://kill-0.com/duplo/2011/03/02/tmux-with-terminal-app-line-wrapping-weirdness/">inability to handle a long command that spilled into the next line</a>.
+I started using Terminal.app back in 2008, and this bug is still occurring.
+I decided to check out iTerm 2 after my buddy Og (<a href="https://twitter.com/OgMaciel">@ogmaciel</a>) suggested it because, “it’s awesome, dude!”</p>
+
+<p>I’m happy with iTerm 2 so far, but it took me a few to figure out the color situation.
+I like a dark background with light text in my terminal, but I prefer Vim’s light-background color palette to its dark-background colors.
+This was never an issue in Terminal.app, but it seems that iTerm 2 is setting some value that Vim interprets causing it to default to <code class="language-plaintext highlighter-rouge">background=dark</code>.
+After poking around Vim’s help docs and experimenting with ordering I came upon the <a href="https://github.com/komidore64/dotfiles/commit/9ec628e037a5f186711736a668465607a34b8cea">magic incantation</a> providing my desired results:</p>
+
+<figure class="highlight"><pre><code class="language-viml" data-lang="viml"><span class="k">set</span> <span class="nb">nocompatible</span>
+<span class="p">[...]</span>
+<span class="k">colorscheme</span> default
+<span class="k">set</span> <span class="nb">t_Co</span><span class="p">=</span><span class="m">256</span>
+<span class="k">set</span> <span class="nb">background</span><span class="p">=</span><span class="nb">light</span>
+<span class="p">[...]</span></code></pre></figure>
+
+<p>I haven’t messed with it a whole lot, but my guess is these settings would go best near the top of your <code class="language-plaintext highlighter-rouge">~/.vimrc</code> before you load any plugins or start changing other colors.
+For more info on these settings, please see Vim’s help system with <code class="language-plaintext highlighter-rouge">:help nocompatible</code>, <code class="language-plaintext highlighter-rouge">:help colorscheme</code>, <code class="language-plaintext highlighter-rouge">:help t_Co</code>, and <code class="language-plaintext highlighter-rouge">:help 'background'</code>, respectively.</p>
+
+<p>Now I have iTerm 2 set up just the way I like it, with Vim colors the way I like them.
+All quiet on the terminal front.
+Happy Vimming!</p>
+
+<p>Anybody know how I can keep the exact same settings as above but give <a href="https://github.com/b4winckler/macvim">MacVim</a> a black background?</p>
+
+
+    </div>
+</article>
+
+        </section>
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container footer-content">
+        copyright <i class="fa fa-copyright"></i> 2021 m. adam price<br>
+        powered by <a href="https://pages.github.com">github-pages</a>
+    </div>
+</nav>
+
+    </body>
+</html>
