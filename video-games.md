@@ -7,17 +7,18 @@ permalink: /video-games
 ## #BeatIt2021
 
 1. [FEZ](/images/video-games/2021-01-23-fez.jpg) [PS3/4] -- 2021.01.23
+1. Control [PS4] -- 2021.05.15
 
 ## #BeatIt2019
 
 1. [Doom (2016)](/images/video-games/2019-08-07-doom4.jpg) [PC] -- 2019.08.07
-2. [Death Stranding](/images/video-games/2019-11-29-death-stranding.jpg) [PS4] - 2019.11.29
-3. [Tetris Effect](/images/video-games/2019-12-08-tetris-effect.jpg) [PS4] - 2019.12.08
+1. [Death Stranding](/images/video-games/2019-11-29-death-stranding.jpg) [PS4] - 2019.11.29
+1. [Tetris Effect](/images/video-games/2019-12-08-tetris-effect.jpg) [PS4] - 2019.12.08
 
 ## #BeatIt2018
 
 1. [Uncharted 2: Among Thieves](/images/video-games/2018-04-29-uncharted2.jpg) [PS3] -- 2018.04.29
-2. [Rime](/images/video-games/2018-05-19-rime.jpg) [PS4] -- 2018.05.19
+1. [Rime](/images/video-games/2018-05-19-rime.jpg) [PS4] -- 2018.05.19
 
 ---
 
